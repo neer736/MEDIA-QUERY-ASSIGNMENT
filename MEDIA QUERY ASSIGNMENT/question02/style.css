@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gallary{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gallary img {
+    width: 30%;
+    margin: 10px;
+}
+@media (max-width:800px) {
+.gallary img {
+    width: 45%;
+}
+}
+@media (max-width:500px) {
+    .gallary img {
+        width: 100%;
+    }
+}
